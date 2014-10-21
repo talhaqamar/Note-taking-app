@@ -35,7 +35,11 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+<<<<<<< HEAD
                                     <action selector="load" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Gu5-aQ-obk"/>
+=======
+                                    <action selector="load" destination="vXZ-lx-hvc" eventType="touchUpInside" id="R1g-9s-CB8"/>
+>>>>>>> 16c6d2083f91aa5d7feb4b04058e526df445a95b
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" keyboardDismissMode="onDrag" translatesAutoresizingMaskIntoConstraints="NO" id="6Ms-vZ-FXu">
