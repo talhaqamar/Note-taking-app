@@ -14,7 +14,14 @@
 		DE1B274C19F54F7E00544C0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1B274B19F54F7E00544C0F /* Images.xcassets */; };
 		DE1B274F19F54F7E00544C0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1B274D19F54F7E00544C0F /* LaunchScreen.xib */; };
 		DE1B275B19F54F8000544C0F /* Note_Taking_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B275A19F54F8000544C0F /* Note_Taking_appTests.swift */; };
+<<<<<<< HEAD
 		DE1B276B19F5E79D00544C0F /* play.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B276A19F5E79D00544C0F /* play.swift */; };
+=======
+<<<<<<< HEAD
+		DE1B276B19F5E79D00544C0F /* play.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B276A19F5E79D00544C0F /* play.swift */; };
+=======
+>>>>>>> ba27ad15a338e6303b879ddb29aac7f540f285a4
+>>>>>>> 3f32f4e3dfae5e3388c38a16866effef777d28f1
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +46,14 @@
 		DE1B275419F54F8000544C0F /* Note Taking appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Note Taking appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1B275919F54F8000544C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE1B275A19F54F8000544C0F /* Note_Taking_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note_Taking_appTests.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		DE1B276A19F5E79D00544C0F /* play.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = play.swift; sourceTree = "<group>"; };
+=======
+<<<<<<< HEAD
+		DE1B276A19F5E79D00544C0F /* play.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = play.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> ba27ad15a338e6303b879ddb29aac7f540f285a4
+>>>>>>> 3f32f4e3dfae5e3388c38a16866effef777d28f1
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +101,14 @@
 				DE1B274B19F54F7E00544C0F /* Images.xcassets */,
 				DE1B274D19F54F7E00544C0F /* LaunchScreen.xib */,
 				DE1B274319F54F7E00544C0F /* Note_Taking_app.xcdatamodeld */,
+<<<<<<< HEAD
 				DE1B276919F5E76700544C0F /* play */,
+=======
+<<<<<<< HEAD
+				DE1B276919F5E76700544C0F /* play */,
+=======
+>>>>>>> ba27ad15a338e6303b879ddb29aac7f540f285a4
+>>>>>>> 3f32f4e3dfae5e3388c38a16866effef777d28f1
 				DE1B273F19F54F7E00544C0F /* Supporting Files */,
 			);
 			path = "Note Taking app";
@@ -118,6 +139,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 3f32f4e3dfae5e3388c38a16866effef777d28f1
 		DE1B276919F5E76700544C0F /* play */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +151,11 @@
 			name = play;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ba27ad15a338e6303b879ddb29aac7f540f285a4
+>>>>>>> 3f32f4e3dfae5e3388c38a16866effef777d28f1
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -229,7 +259,14 @@
 				DE1B274719F54F7E00544C0F /* ViewController.swift in Sources */,
 				DE1B274219F54F7E00544C0F /* AppDelegate.swift in Sources */,
 				DE1B274519F54F7E00544C0F /* Note_Taking_app.xcdatamodeld in Sources */,
+<<<<<<< HEAD
 				DE1B276B19F5E79D00544C0F /* play.swift in Sources */,
+=======
+<<<<<<< HEAD
+				DE1B276B19F5E79D00544C0F /* play.swift in Sources */,
+=======
+>>>>>>> ba27ad15a338e6303b879ddb29aac7f540f285a4
+>>>>>>> 3f32f4e3dfae5e3388c38a16866effef777d28f1
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +458,14 @@
 				DE1B276019F54F8000544C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+<<<<<<< HEAD
 			defaultConfigurationName = Release;
+=======
+<<<<<<< HEAD
+			defaultConfigurationName = Release;
+=======
+>>>>>>> ba27ad15a338e6303b879ddb29aac7f540f285a4
+>>>>>>> 3f32f4e3dfae5e3388c38a16866effef777d28f1
 		};
 		DE1B276119F54F8000544C0F /* Build configuration list for PBXNativeTarget "Note Taking appTests" */ = {
 			isa = XCConfigurationList;
@@ -430,7 +474,14 @@
 				DE1B276319F54F8000544C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+<<<<<<< HEAD
 			defaultConfigurationName = Release;
+=======
+<<<<<<< HEAD
+			defaultConfigurationName = Release;
+=======
+>>>>>>> ba27ad15a338e6303b879ddb29aac7f540f285a4
+>>>>>>> 3f32f4e3dfae5e3388c38a16866effef777d28f1
 		};
 /* End XCConfigurationList section */
 

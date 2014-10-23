@@ -17,22 +17,83 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wkz-xt-u2c">
+                                <rect key="frame" x="13" y="71" width="294" height="387"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+>>>>>>> ba27ad15a338e6303b879ddb29aac7f540f285a4
+>>>>>>> 3f32f4e3dfae5e3388c38a16866effef777d28f1
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Note Taking app" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xjd-8c-IeO">
                                 <rect key="frame" x="16" y="20" width="288" height="43"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="40"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <color key="highlightedColor" red="1" green="0.8070825729927007" blue="0.97870095802919532" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
+<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xhs-t1-FDl">
                                 <rect key="frame" x="258" y="505" width="46" height="30"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="16"/>
                                 <state key="normal" title="Save">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+=======
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIV-Ah-yFq">
+<<<<<<< HEAD
+                                <rect key="frame" x="16" y="505" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="15"/>
+                                <state key="normal" title="Load">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="load" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Gu5-aQ-obk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xhs-t1-FDl">
+                                <rect key="frame" x="261" y="505" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="16"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+=======
+                                <rect key="frame" x="13" y="487" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="15"/>
+                                <state key="normal" title="Load">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+<<<<<<< HEAD
+                                    <action selector="load" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Gu5-aQ-obk"/>
+=======
+                                    <action selector="load" destination="vXZ-lx-hvc" eventType="touchUpInside" id="R1g-9s-CB8"/>
+>>>>>>> 16c6d2083f91aa5d7feb4b04058e526df445a95b
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" keyboardDismissMode="onDrag" translatesAutoresizingMaskIntoConstraints="NO" id="6Ms-vZ-FXu">
+                                <rect key="frame" x="21" y="80" width="278" height="370"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xhs-t1-FDl">
+                                <rect key="frame" x="261" y="487" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="16"/>
+                                <state key="normal" title="Save">
+>>>>>>> ba27ad15a338e6303b879ddb29aac7f540f285a4
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+>>>>>>> 3f32f4e3dfae5e3388c38a16866effef777d28f1
                                 </state>
                                 <connections>
                                     <action selector="save" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rgq-6a-8X3"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 3f32f4e3dfae5e3388c38a16866effef777d28f1
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g9L-Za-yPV">
                                 <rect key="frame" x="16" y="90" width="288" height="407"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -45,6 +106,7 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIV-Ah-yFq">
                                 <rect key="frame" x="16" y="505" width="46" height="30"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="15"/>
@@ -56,6 +118,8 @@
                                     <action selector="load" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Gu5-aQ-obk"/>
                                 </connections>
                             </button>
+=======
+>>>>>>> 3f32f4e3dfae5e3388c38a16866effef777d28f1
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -79,6 +143,30 @@
                     </view>
                     <connections>
                         <outlet property="textnote" destination="Mxp-li-ge4" id="9do-HG-jcu"/>
+<<<<<<< HEAD
+=======
+=======
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wkz-xt-u2c" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-3" id="0c8-DZ-Tds"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Xhs-t1-FDl" secondAttribute="bottom" constant="51" id="9nZ-Jp-BVf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wkz-xt-u2c" secondAttribute="trailing" constant="-3" id="Aja-zJ-Jh5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6Ms-vZ-FXu" secondAttribute="trailing" constant="5" id="NBE-T2-Uwt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Xhs-t1-FDl" secondAttribute="trailing" constant="-3" id="VZ6-ba-Bt2"/>
+                            <constraint firstItem="xjd-8c-IeO" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="f7z-zj-vZM"/>
+                            <constraint firstItem="6Ms-vZ-FXu" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="5" id="htA-Wj-Q0B"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="cIV-Ah-yFq" secondAttribute="bottom" constant="51" id="mTq-2k-Nb9"/>
+                            <constraint firstItem="xjd-8c-IeO" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="prV-5i-8jO"/>
+                            <constraint firstItem="Xhs-t1-FDl" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="467" id="vZT-a4-Ht4"/>
+                            <constraint firstItem="cIV-Ah-yFq" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="467" id="xKf-Zx-RkD"/>
+                            <constraint firstItem="cIV-Ah-yFq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-3" id="xx4-4E-EQD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textnote" destination="6Ms-vZ-FXu" id="6ay-tu-TMf"/>
+>>>>>>> ba27ad15a338e6303b879ddb29aac7f540f285a4
+>>>>>>> 3f32f4e3dfae5e3388c38a16866effef777d28f1
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
