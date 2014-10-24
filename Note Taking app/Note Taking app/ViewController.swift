@@ -9,11 +9,52 @@
 import UIKit
 import CoreData
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 3f32f4e3dfae5e3388c38a16866effef777d28f1
+>>>>>>> b91dac00fa7f887696899da7f2269e8bff2c3b3b
 class ViewController: UIViewController,UITextViewDelegate{
     @IBOutlet var textnote : UITextView!
     @IBOutlet var textnote1 : UITextView!
     let colorw = ColorWheel()
    
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+class ViewController: UIViewController,UITextViewDelegate{
+    @IBOutlet var textnote : UITextView!
+    
+   
+=======
+class ViewController: UIViewController{
+    @IBOutlet weak var textnote : UITextView!
+    
+   
+        @IBAction func load()
+    {
+        var appDel:AppDelegate = (UIApplication.sharedApplication().delegate as AppDelegate)
+        var context: NSManagedObjectContext = appDel.managedObjectContext!
+        var request = NSFetchRequest(entityName: "Notepad")
+        request.returnsObjectsAsFaults = false
+        var results:NSArray = context.executeFetchRequest(request, error: nil)!
+        if(results.count > 0)
+        {   var res = results[0] as NSManagedObject
+            textnote.text = res.valueForKey("note") as String
+                     // for res in results{ println(res) }
+        }
+            
+        else { println("error") }
+    }
+>>>>>>> 16c6d2083f91aa5d7feb4b04058e526df445a95b
+>>>>>>> ba27ad15a338e6303b879ddb29aac7f540f285a4
+>>>>>>> 3f32f4e3dfae5e3388c38a16866effef777d28f1
+>>>>>>> b91dac00fa7f887696899da7f2269e8bff2c3b3b
     
     @IBAction func save()
     {   var appDel:AppDelegate = (UIApplication.sharedApplication().delegate as AppDelegate)
@@ -24,6 +65,16 @@ class ViewController: UIViewController,UITextViewDelegate{
         context.save(nil)
         println("save")
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> ba27ad15a338e6303b879ddb29aac7f540f285a4
+>>>>>>> 3f32f4e3dfae5e3388c38a16866effef777d28f1
+>>>>>>> b91dac00fa7f887696899da7f2269e8bff2c3b3b
     @IBAction func load()
     {
         var appDel1:AppDelegate = (UIApplication.sharedApplication().delegate as AppDelegate)
@@ -50,9 +101,28 @@ class ViewController: UIViewController,UITextViewDelegate{
         super.viewDidLoad()
         textnote.delegate = self
         load()
+<<<<<<< HEAD
         var col = colorw.randomcolor()
         view.backgroundColor = col
         textnote.backgroundColor = col
+=======
+<<<<<<< HEAD
+        var col = colorw.randomcolor()
+        view.backgroundColor = col
+        textnote.backgroundColor = col
+=======
+<<<<<<< HEAD
+        var col = colorw.randomcolor()
+        view.backgroundColor = col
+        textnote.backgroundColor = col
+=======
+=======
+      override func viewDidLoad() {
+        super.viewDidLoad()
+>>>>>>> 16c6d2083f91aa5d7feb4b04058e526df445a95b
+>>>>>>> ba27ad15a338e6303b879ddb29aac7f540f285a4
+>>>>>>> 3f32f4e3dfae5e3388c38a16866effef777d28f1
+>>>>>>> b91dac00fa7f887696899da7f2269e8bff2c3b3b
         // Do any additional setup after loading the view, typically from a nib.
     }
     
