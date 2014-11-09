@@ -3,7 +3,7 @@ Note-taking-app
 
 Note taking app based on swift.User simple adds/loads strings from core data
 
-![alt tag](http://nerddevelopers.com/images/notetaking/55.PNG)
-![alt tag](http://nerddevelopers.com/images/notetaking/22.PNG)
-![alt tag](http://nerddevelopers.com/images/notetaking/33.PNG)
-![alt tag](http://nerddevelopers.com/images/notetaking/44.PNG)
+![alt tag](http://s25.postimg.org/jna83024v/image.png)
+![alt tag](http://s25.postimg.org/5i4f16t3j/22_2.png)
+![alt tag](http://s25.postimg.org/68x56yvgv/33_2.png)
+![alt tag](http://s25.postimg.org/9h1mk0hqn/444.png)
